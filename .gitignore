@@ -26,3 +26,5 @@ yarn-error.log*
 /.idea
 .vscode
 .serverless
+.yarn.lock
+package-lock.json
