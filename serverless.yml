@@ -1,4 +1,4 @@
-service: my-first-rs-school-app
+service: node-aws-shop-fe
 
 frameworkVersion: '2'
 
@@ -6,6 +6,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   profile: personalProfile
+  region: eu-west-1
 
 plugins:
   - serverless-finch
@@ -13,7 +14,7 @@ plugins:
 
 custom:
   client:
-    bucketName: my-first-serverless-rs-school-app
+    bucketName: node-aws-shop-fe-bucket
     distributionFolder: build
     indexDocument: index.html
     manageResources: false
