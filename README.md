@@ -1,3 +1,6 @@
+* Cloudfront URL: https://du4gmq9ya9dk5.cloudfront.net/
+* S3 URL(FORBIDDEN): http://my-first-serverless-rs-school-app.s3-website-us-east-1.amazonaws.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
